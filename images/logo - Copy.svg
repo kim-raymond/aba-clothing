@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="73" viewBox="0 0 175 73">
+  <g id="logo" transform="translate(-1719 -85)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="175" height="73" rx="11" transform="translate(1719 85)" fill="#fffdf2"/>
+    <text id="aba" transform="translate(1807 136)" fill="#707070" font-size="40" font-family="Swiss721BT-BlackExtended, Swis721 BlkEx BT" font-weight="800" letter-spacing="0.06em"><tspan x="-58.65" y="0">ABA</tspan></text>
+    <path id="Path_9" data-name="Path 9" d="M1840.989,107.359l-12.55,28.531h38.042l-11.766-28.531Z" fill="#707070" stroke="#707070" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="1"/>
+    <path id="Path_2" data-name="Path 2" d="M1848.321,214.941a.725.725,0,0,0-.4.225.792.792,0,0,0-.162.469c-.019.241,0,1.636,0,1.636a1.378,1.378,0,0,0-.6.621,2.263,2.263,0,0,0-.314.926,4.991,4.991,0,0,0,0,1.192c.057.317,1.218,3.842,1.218,3.842v1.632l-3.692,9.086a5.328,5.328,0,0,0,.209,1.693c.241.557.772,1.457,1.3,1.436s9.94,0,9.94,0a1.992,1.992,0,0,0,1.351-1.714c.193-1.414-.064-1.629-.064-1.629l-3.458-8.872-.064-1.632a32.188,32.188,0,0,0,1.3-4.239,2.757,2.757,0,0,0-.4-1.629,2.167,2.167,0,0,0-.611-.713v-1.636a.74.74,0,0,0-.225-.469.921.921,0,0,0-.627-.118.476.476,0,0,0-.338.321,12.016,12.016,0,0,0-.1,1.714l-1.512.808a.433.433,0,0,1-.563.092c-.29-.214-1.528-.9-1.528-.9v-1.449a1.178,1.178,0,0,0-.113-.373,2.517,2.517,0,0,0-.273-.321Z" transform="translate(-3.345 -100.992)" fill="#fff"/>
+    <path id="Path_10" data-name="Path 10" d="M1841.512,133.115l-1.659,4.073,3.922.3Z" fill="#fff" stroke="#fff" stroke-width="0.6"/>
+    <path id="Path_11" data-name="Path 11" d="M1852.993,132.332c.174,0,1.914,5.105,1.914,5.105h-4.641" fill="#fff" stroke="#fff" stroke-width="0.6"/>
+  </g>
+</svg>
