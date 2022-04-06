@@ -1,177 +1,202 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Kim Magallanes</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type ="image/png" href="image/favicon.png">
-    <link rel="stylesheet" type ="text/css" href="fontawesome-free-5.15.3-web\css\all.css">
-    <link rel="stylesheet" type="text/css" href="kim.css">
+    <link rel="shortcut icon" type ="image/png" href="images/favIcon.svg">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://kit.fontawesome.com/4d8dfd2c7b.js" crossorigin="anonymous"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
 
     
+    <title>ABA Clothing</title>
 </head>
+
 <body>
 
+    <div class="navContainer ">
     <nav>
-        <input type="checkbox" id="check">
+        <div class="logo"><strong>ABA </strong><p>clothing</p></div> 
 
-        <section class="logo">
-        /kimagallanes
-        </section>
-        
-        <section class="sidebar">
-            <ul>
-                <li><a   href = "index.html">Home</a></li>
-                <li><a   href = "services.html">Services</a></li>
-                <li><a   href = "portfolio.html">Portfolio</a></li>
-                <li><a   href = "AboutMe.html">About Me</a></li>
-            </ul>
-    
-          <button class="contactBtn" id="Button2">Contact</button>
-        </section>
+        <div class="ulContainer">
 
-        <button class="contactBtn" id="Button1">Contact</button>
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        
-    </nav> 
-
-    <div class="bigContainer" id="contact" >
-        <div class="contactContnr">
-            <div class="iconWraper">
-            <button id="exit" class="exit"><img src="image/Layer 2.svg" width="25em" height="25em"> </button>
-            </div>
-            <form netlify>
-                <h3>Message Me</h3>
-                <p>Feel free to message me or ask me any question.</p>
-                <input class="inputfield" name="name" type="text" placeholder="Your Complete Name" required/>
-                <br/>
-                <input class="inputfield" name="email" type="text" placeholder="Your email address" required/>
-                <br/>
-                <textarea class="message" name="Message">Your Message...</textarea>
-                <br/>
-                <button id="Send" type="submit">Send<img  class="arrow" src="image/Group 1.png"></button>
-            </form>
-            
-            <div class="contactDetailS">
-                <div class="space">
-                <h4>email address</h4>
-                <p>magallaneskim774@gmail.com</p>
-                </div>
-    
-                <div class="space">
-                <h4>phone</h4>
-                <p>09397280651</p>
-                </div>
-    
-                <div class="space">
-                <h4>messenger</h4>
-                <p>m.me/kim.magllanes</p>
-                </div>
-    
-                <div class="contactIcons">
-                    <a href="https://web.facebook.com/kim.magllanes/"><img class="conicon" src="image/facebook fb face book.svg"></a>
-                    <a href="https://web.facebook.com/kim.magllanes/"><img class="conicon" src="image/Group 2.svg"></a>
-                    <a href="#"><img class="conicon"  src="image/insta.svg"></a>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-
-    <header> 
-        <div class="wraper">
-        <div class="container fade-in">
-        <h2 class="uno">Hi! I'm</h2>
-        <h1>Kim Raymond Magallanes</h1>
-        <h2>Junior front-end web developer, Providing you websites that could help you do better online.</h2>
-        <a id = "bttn" href="AboutMe.html">About Me</a>
-        </div>
-
-        <img class ="image" src="image/undraw_startup_life_2du2.svg" height="400px" width="380px">
-
-        </div>
-    </header>
-
-    <section class="services">
-
-
-        <div class="card-container">
-        <div class = "service"> 
-            <div class = " Title">Web development</div>
-            <div class="imgWraper">
-            <img src="image/development.svg" width="32px" height="32px" class="img">
-            </div>
-            <p class = "des">
-            Coding from scratch and turning ideas into reality and making something that 
-            everybody in the world could use or avail is what I love much about web development. 
-            My view is simple but effecient. 
-         </p>
-         <a id="a" href = "services.html">Learn More</a>
-        
-        </div>
-        <br>
-
-        <div class = "service "> 
-            <div class = " Title">Web Design</div>
-            <div class="imgWraper">
-            <img src="image/design.svg" width="40px" height="40px" class="img">
-            </div>
-            <p class = "des">
-            Having a simple and pleasant design of your  website 
-            can affect your clients feelings ,
-            it plays significant role specially on having a business it 
-            opens a great opportunity to make visitors avail your services.
-            </p>   
-            <a id="a" href = "services.html">Learn More</a>       
-         
-        </div>
-        <br>
-
-        <div class = "service "> 
-            <div class = " Title">Responsive Design</div>
-            <div class="imgWraper">
-            <img src="image/responsive.svg" width="30px" height="30px" class="img">
-            </div>
-            <p class = "des">
-            Desktop, or any other larger devices aren't always the option when it comes to accessing your website. Ensuring that your website can still look good in any type of device, making it responsive is the only solution.
-            </p>
-            <a id="a" href = "services.html">Learn More</a>
-       
-        </div>
-    </div>
-
-    </section>
-    <section class="testimonials">
-        <blockquote class="quote">
-        <p>"Far and away the best prize that life offers is the chance to work hard at work worth doing".</p>
-        <cite>~ Theodore Roosevelt</cite>
-        </blockquote>
-    </section>
-    <footer>
-    <div class="footer">
-
-        <div class="icons"> 
-        <label class="icon"><i class="fab fa-facebook"></i></label>
-        <label class="icon"><i class="fab fa-instagram"></i></label>
-        <label class="icon"><i class="fab fa-github"></i></label>
-        <label class="icon"><i class="fas fa-envelope"></i></label>
-        </div>
-
-       
         <ul>
-            <li><a href="index.home.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="AboutMe.html">About Me</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "products.html">Products</a></li>
+            <li><a href = "orders.html">Orders</a></li>
         </ul>
-        <div class="rights"> 
-        <p>© All rights reserve.</p>
+
         </div>
-        </div>
-        </footer>
+        
+        <a >
+            <i class="fa-solid fa-bag-shopping fa-lg"></i>
+            <!--<img class="cartIcon" src="images/bag-shopping-solid.svg">-->
+        </a>
+
+    </nav>
     </div>
+
+
+    <div class="hero-background">
+    </div>
+
+    <div class="details-container">
+
+    <div class="hero-details ">
+        <div class="heroText">
+        <h1>Affordable Trendy Clothes</h1>
+        <h3>Selling less expensive and nice quality fashion clothes.</h3>
+        </div>
+        
+        <div class="heroButton">
+        <a href="#"> About us  
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+        </div>
+
+    </div>
+
+    <img  class="headinImage" src="images/heroImage.jpg">
+    </div>
+
+
+
+    <div class="body-container"> 
+
+    <section>
+        <div class="section-Details">
+            <h2>Fresh from Sewing Shop</h2>
+            <p>Get your desired/favorite trend outfits freshly manufactured from
+            one of the best sewing shop here in Misamis Occidental
+            </p>
+        </div>
+    </section>
+
+    <section class="Recommend-container"> 
+    <div class="Recomend">
+            <h3>Recomended</h3>
+            <a id="viewAll" href="products.html">View All</a>
+
+            <div class="card card1">
+                
+                <img class="card-images" src="images/cropTop.svg">
+
+                <div class="desContainer">
+
+                <div class="cardDes">
+                <h4 class="Name">Crop top</h4>
+                <p class="price"> Starts from 99 pesos</p>
+                </div>
+
+                <div class="card-button">
+                <a class="buy-now" href="#">See More</a>
+                </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="card card2">
+                <img class="card-images" src="images/terno.svg">
+
+                <div class="desContainer">
+
+                <div class="cardDes">
+                <h4 class="Name">Terno</h4>
+                <p class="price"> Starts from 99 pesos</p>
+                </div>
+
+                <div class="card-button">
+                <a class="buy-now" href="#">See More</a>
+                </div>
+
+                </div>
+            </div>
+
+
+            <div class="card card3">
+
+                <img class="card-images" src="images/dress.svg">
+
+                <div class="desContainer">
+
+                <div class="cardDes">
+                <h4 class="Name">Dress </h4>
+                <p class="price"> Starts from 99 pesos</p>
+                </div>
+
+                <div class="card-button">
+                <a class="buy-now" href="#">See More</a>
+                </div>
+
+                </div>
+            </div>
+
+    </div>
+    </section>
+
+    
+
+    <section class="option">
+
+        <div class="option-Details">
+            <h2>Lots of Options & Styles</h2>
+            <p>Don't limit your self and enjoy our affordable products with lots of options and styles. Get your desired/favorite trend outfits.
+            </p>
+        </div>
+
+        <div class="optImage"></div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonial-Image"></div>
+        <div class="testimonial-Details">
+
+            <h2>Testimonials</h2>
+            <blockquote>
+
+            <p>"Get your desired/favorite trend outfits freshly manufactured from
+            one of the best sewing shop here in Misamis Occidental".
+            </p>
+
+            <cite>~ Theodore Roosevelt</cite>
+
+            </blockquote>
+        </div>
+    </section>
+
+    <section>
+        <div class="delivery-Details">
+
+            <div class="deliveryText">
+            <h2>Free Delivery</h2>
+            <p>Avail our free delivery service if you're within the area of
+                Palilan, Jimenez, Misamis Occidental.
+            </p>
+            </div>
+
+            <div id="map"></div>
+
+        </div>
+    </section>
+    
+    </div>
+
+    <footer>
+        <ul>
+            <li>Shop</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+        <p>Zone 6, Polbacion Jimenez, Misamis Occidental</p>
+    </footer>
+
    <script src="script.js"></script> 
+
 </body>
-</html>
+</html>     
