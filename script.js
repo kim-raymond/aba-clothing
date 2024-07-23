@@ -33,9 +33,9 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoia2ltLXJheW1vbmQyNyIsImEiOiJjbDB4YmxxejYxcHplM
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/kim-raymond27/cl0xcvpx5004k14lphas9mh4e',
-center:[123.849860,8.319160],//[lng,lat]
+center:[124.645920,8.477217],//[lng,lat]
 zoom:12
 });
 var marker = new mapboxgl.Marker()
-.setLngLat([123.849860,8.319160])
+.setLngLat([124.645920,8.477217])
 .addTo(map);
